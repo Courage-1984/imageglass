@@ -11,7 +11,7 @@ whiskers:
     "Version": "9.0"
   },
   "Info": {
-    "Name": "Catppuccin {{flavor.name}}",
+    "Name": "Catppuccin {{flavor.name}} {{flavor.emoji}}",
     "Author": "Dietz",
     "Email": "Courage-1984@proton.me",
     "Website": "https://github.com/Courage-1984/imageglass",
