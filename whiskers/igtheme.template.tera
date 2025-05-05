@@ -1,0 +1,86 @@
+---
+whiskers:
+  version: "^2.5.1"
+  matrix:
+    - flavor
+  filename: "{{flavor.identifier}}/igtheme.json"
+---
+{
+  "_Metadata": {
+    "Description": "ImageGlass theme configuration file",
+    "Version": "9.0"
+  },
+  "Info": {
+    "Name": "Catppuccin {{flavor.name}}",
+    "Author": "Dietz",
+    "Email": "Courage-1984@proton.me",
+    "Website": "https://github.com/Courage-1984/imageglass",
+    "Description": "Catppuccin {{flavor.name}} ImageGlass theme",
+    "Version": "2.3"
+  },
+  "Settings": {
+    "IsDarkMode": {% if flavor.identifier == "latte" %}false{% else %}true{% endif %},
+    "NavButtonLeft": "ViewPreviousImage.svg",
+    "NavButtonRight": "ViewNextImage.svg",
+    "AppLogo": "Logo.svg",
+    "PreviewImage": "Preview.png"
+  },
+  "Colors": {
+    "TextColor": "#{{text.hex}}",
+    "BgColor": "#{{base.hex}}",
+    "ToolbarBgColor": "#{{crust.hex}}",
+    "ToolbarTextColor": "#{{text.hex}}",
+    "ToolbarItemHoverColor": "#{{surface1.hex}}",
+    "ToolbarItemActiveColor": "#{{surface2.hex}}",
+    "ToolbarItemSelectedColor": "#{{surface2.hex}}",
+    "GalleryBgColor": "#{{crust.hex}}",
+    "GalleryTextColor": "#{{text.hex}}",
+    "GalleryItemHoverColor": "#{{surface1.hex}}",
+    "GalleryItemActiveColor": "#{{surface2.hex}}",
+    "GalleryItemSelectedColor": "#{{surface2.hex}}",
+    "MenuBgColor": "#{{surface0.hex}}",
+    "MenuBgHoverColor": "#{{surface1.hex}}",
+    "MenuTextColor": "#{{text.hex}}",
+    "MenuTextHoverColor": "#{{subtext0.hex}}",
+    "NavigationButtonColor": "#{{surface0.hex}}15"
+  },
+  "ToolbarIcons": {
+    "ActualSize": "ActualSize.svg",
+    "AutoZoom": "AutoZoom.svg",
+    "Bookmarks": "Bookmarks.svg",
+    "Checkerboard": "Checkerboard.svg",
+    "ColorPicker": "ColorPicker.svg",
+    "Crop": "Crop.svg",
+    "Delete": "Delete.svg",
+    "Edit": "Edit.svg",
+    "FlipHorz": "FlipHorz.svg",
+    "FlipVert": "FlipVert.svg",
+    "FullScreen": "FullScreen.svg",
+    "GoToImage": "GoToImage.svg",
+    "LockZoom": "LockRatio.svg",
+    "MainMenu": "Menu.svg",
+    "OpenFile": "OpenFile.svg",
+    "Print": "Print.svg",
+    "Refresh": "Refresh.svg",
+    "RotateLeft": "RotateLeft.svg",
+    "RotateRight": "RotateRight.svg",
+    "Save": "Save.svg",
+    "ScaleToFill": "ScaleToFill.svg",
+    "ScaleToFit": "ScaleToFit.svg",
+    "ScaleToHeight": "ScaleToHeight.svg",
+    "ScaleToWidth": "ScaleToWidth.svg",
+    "Slideshow": "Slideshow.svg",
+    "Gallery": "Gallery.svg",
+    "ViewFirstImage": "GoFirst.svg",
+    "ViewLastImage": "GoLast.svg",
+    "ViewNextImage": "ViewNextImage.svg",
+    "ViewPreviousImage": "ViewPreviousImage.svg",
+    "WindowFit": "WindowFit.svg",
+    "ZoomIn": "ZoomIn.svg",
+    "ZoomOut": "ZoomOut.svg",
+    "Play": "Play.svg",
+    "Pause": "Pause.svg",
+    "Export": "Export.svg",
+    "Exit": "Exit.svg"
+  }
+} 
