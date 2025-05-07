@@ -4,11 +4,11 @@
     "Version": "9.0"
   },
   "Info": {
-    "Name": "Catppuccin Frappe",
-    "Author": "Dietz",
-    "Email": "Courage-1984@proton.me",
-    "Website": "https://github.com/Courage-1984/imageglass",
-    "Description": "Catppuccin Frappé ImageGlass theme",
+    "Name": "Catppuccin Macchiato",
+    "Author": "Catppuccin",
+    "Email": "releases@catppuccin.com",
+    "Website": "https://github.com/catppuccin/imageglass",
+    "Description": "Soothing pastel theme for ImageGlass",
     "Version": "2.3"
   },
   "Settings": {
@@ -19,23 +19,23 @@
     "PreviewImage": "Preview.png"
   },
   "Colors": {
-    "TextColor": "#c6d0f5",
-    "BgColor": "#303446",
-    "ToolbarBgColor": "#232634",
-    "ToolbarTextColor": "#c6d0f5",
-    "ToolbarItemHoverColor": "#51576d",
-    "ToolbarItemActiveColor": "#626880",
-    "ToolbarItemSelectedColor": "#626880",
-    "GalleryBgColor": "#232634",
-    "GalleryTextColor": "#c6d0f5",
-    "GalleryItemHoverColor": "#51576d",
-    "GalleryItemActiveColor": "#626880",
-    "GalleryItemSelectedColor": "#626880",
-    "MenuBgColor": "#414559",
-    "MenuBgHoverColor": "#51576d",
-    "MenuTextColor": "#c6d0f5",
-    "MenuTextHoverColor": "#a5adce",
-    "NavigationButtonColor": "#41455915"
+    "TextColor": "#cad3f5",
+    "BgColor": "#24273a",
+    "ToolbarBgColor": "#181926",
+    "ToolbarTextColor": "#cad3f5",
+    "ToolbarItemHoverColor": "#494d64",
+    "ToolbarItemActiveColor": "#5b6078",
+    "ToolbarItemSelectedColor": "#5b6078",
+    "GalleryBgColor": "#181926",
+    "GalleryTextColor": "#cad3f5",
+    "GalleryItemHoverColor": "#494d64",
+    "GalleryItemActiveColor": "#5b6078",
+    "GalleryItemSelectedColor": "#5b6078",
+    "MenuBgColor": "#363a4f",
+    "MenuBgHoverColor": "#494d64",
+    "MenuTextColor": "#cad3f5",
+    "MenuTextHoverColor": "#a5adcb",
+    "NavigationButtonColor": "#363a4f15"
   },
   "ToolbarIcons": {
     "ActualSize": "ActualSize.svg",

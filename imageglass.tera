@@ -3,7 +3,7 @@ whiskers:
   version: "^2.5.1"
   matrix:
     - flavor
-  filename: "{{flavor.identifier}}/igtheme.json"
+  filename: "./themes/Catppuccin-{{flavor.identifier}}.Catppuccin/igtheme.json"
 ---
 {
   "_Metadata": {
@@ -11,15 +11,15 @@ whiskers:
     "Version": "9.0"
   },
   "Info": {
-    "Name": "Catppuccin {{flavor.name}} {{flavor.emoji}}",
-    "Author": "Dietz",
-    "Email": "Courage-1984@proton.me",
-    "Website": "https://github.com/Courage-1984/imageglass",
-    "Description": "Catppuccin {{flavor.name}} ImageGlass theme",
+    "Name": "Catppuccin {{flavor.name}}",
+    "Author": "Catppuccin",
+    "Email": "releases@catppuccin.com",
+    "Website": "https://github.com/catppuccin/imageglass",
+    "Description": "Soothing pastel theme for ImageGlass",
     "Version": "2.3"
   },
   "Settings": {
-    "IsDarkMode": {% if flavor.identifier == "latte" %}false{% else %}true{% endif %},
+    "IsDarkMode": {{ flavor.dark }},
     "NavButtonLeft": "ViewPreviousImage.svg",
     "NavButtonRight": "ViewNextImage.svg",
     "AppLogo": "Logo.svg",
